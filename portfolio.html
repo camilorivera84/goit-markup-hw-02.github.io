@@ -6,35 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="body">
     <header>
       <nav>
-        <a class="webstudio" href="#">Webstudio</a>
-        <ul class="header">
-          <li><a class="studio" href="index.html">Studio</a></li>
-          <li><a class="portfolio" href="#">Portfolio</a></li>
-          <li><a class="contacts" href="#">Contacts</a></li>
+        <a class="logo" href="#">Webstudio</a>
+        <ul class="menu-list">
+          <li><a class="menu-list-studio2" href="index.html">Studio</a></li>
+          <li>
+            <a class="menu-list-porfolio2" href="#">Portfolio</a>
+          </li>
+          <li><a class="menu-list-contacts" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact-list">
         <li>
-          <a class="email" href="info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-list-email" href="info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a class="phone" href="+1-212-772-4150">+1-212-772-4150</a></li>
+        <li>
+          <a class="contact-list-mobile" href="+1-212-772-4150"
+            >+1-212-772-4150</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <section>
-        <button class="button-all" type="button">all</button>
-        <button class="button-web-sites" type="button">web sites</button>
-        <button class="button-apps" type="button">apps</button>
-        <button class="button-design" type="button">design</button>
-        <button class="button-marketing" type="button">marketing</button>
+        <h1 hidden>portfolio</h1>
+        <ul class="list-button">
+          <li><button class="button-all" type="button">all</button></li>
+          <li>
+            <button class="button-web-sites" type="button">web sites</button>
+          </li>
+          <li><button class="button-apps" type="button">apps</button></li>
+          <li><button class="button-design" type="button">design</button></li>
+          <li>
+            <button class="button-marketing" type="button">marketing</button>
+          </li>
+          <br /><br />
+        </ul>
       </section>
       <section>
-        <h2 hidden>topics</h2>
-        <ul>
+        <ul class="list-container">
           <li class="container">
             <img
               class="computer"
@@ -142,7 +163,7 @@
     <footer class="footer2">
       <a class="web" href="WebStudio">WebStudio</a>
       <address>
-        <ul>
+        <ul class="list-contacts">
           <li>
             <a class="site" href="https://goo.gl/maps/ua91CeisvxC2wW5t7"
               >695Park Ave, New York, NY 10065 United States</a
