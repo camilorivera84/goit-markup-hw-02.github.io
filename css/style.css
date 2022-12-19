@@ -17,8 +17,12 @@ body {
 .link {
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
 }
 .list:focus {
+  outline: #2196f3;
+}
+.link:focus {
   outline: #2196f3;
 }
 .logo {
@@ -44,7 +48,7 @@ body {
 .menu-link-studio:hover {
   color: var(--brand-color);
 }
-.menu-link-portfolio {
+.menu-link-porfolio-main {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
@@ -53,7 +57,7 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.menu-link-porfolio:hover {
+.menu-link-porfolio-main:hover {
   color: var(--brand-color);
 }
 .menu-link-contacts {
@@ -107,6 +111,7 @@ body {
   color: #ffffff;
 }
 .hero-section-button {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -118,6 +123,10 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
+}
+.hero-section-button:focus {
+  outline: #2196f3;
 }
 .feature-section-list {
   list-style: none;
@@ -249,6 +258,7 @@ body {
   border-radius: 4px;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .button-all:hover {
   color: white;
@@ -271,6 +281,7 @@ body {
   color: #212121;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .button-web-sites:hover {
   color: white;
@@ -292,6 +303,7 @@ body {
   border-radius: 4px;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .button-app:hover {
   color: white;
@@ -313,6 +325,7 @@ body {
   color: #212121;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .button-design:hover {
   color: white;
@@ -334,6 +347,7 @@ body {
   color: #212121;
   border: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .button-marketing:hover {
   color: white;
