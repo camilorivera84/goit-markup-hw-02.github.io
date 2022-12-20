@@ -211,6 +211,12 @@ body {
   color: var(--secondary-text-color);
   text-transform: capitalize;
 }
-:current {
-  color: #2196f3;
+.current {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+.current:focus {
+  background-color: var(--brand-color);
+  color: var(--primary-white-color);
+  outline: none;
 }
