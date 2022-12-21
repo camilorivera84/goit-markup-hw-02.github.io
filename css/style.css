@@ -19,14 +19,11 @@ body {
   list-style: none;
 }
 .button:focus {
-  background-color: var(--brand-color);
-  color: var(--primary-white-color);
+  color: var(--brand-color);
   outline: none;
 }
 .link:focus {
-  background-color: var(--brand-color);
-  color: var(--primary-white-color);
-  outline: none;
+  color: var(--brand-color);
 }
 .logo {
   font-family: 'Raleway';
