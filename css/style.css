@@ -17,15 +17,6 @@ body {
 }
 .list {
   list-style: none;
-  text-decoration: none;
-}
-.link {
-  list-style: none;
-}
-.button-portfolio {
-  list-style: none;
-  text-decoration: none;
-  cursor: pointer;
 }
 .button:focus {
   background-color: var(--brand-color);
@@ -63,13 +54,9 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.link-contact:hover {
-  color: var(--brand-color);
-}
+.link-contact:hover,
 .link-contact:focus {
-  background-color: var(--brand-color);
-  color: var(--primary-white-color);
-  outline: none;
+  color: var(--brand-color);
 }
 
 .link:hover {
@@ -104,11 +91,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.hero-section-button:focus {
+.hero-section-button:focus,
+.hero-section-button:hover {
   outline: var(--brand-color);
-}
-.feature-section-list {
-  list-style: none;
 }
 .feature-section-list-title {
   font-style: normal;
@@ -157,13 +142,9 @@ body {
   color: var(--primary-white-color);
   text-decoration: none;
 }
-.link-site:hover {
-  color: var(--brand-color);
-}
+.link-site:hover,
 .link-site:focus {
-  background-color: var(--brand-color);
-  color: var(--primary-white-color);
-  outline: none;
+  color: var(--brand-color);
 }
 
 .button {
@@ -214,9 +195,4 @@ body {
 .current {
   color: var(--brand-color);
   text-decoration: none;
-}
-.current:focus {
-  background-color: var(--brand-color);
-  color: var(--primary-white-color);
-  outline: none;
 }
